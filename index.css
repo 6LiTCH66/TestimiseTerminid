@@ -1,0 +1,19 @@
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.expandable {
+    background: darksalmon;
+    overflow: hidden;
+    color: #000;
+
+    transition: all .5s ease-in-out;
+    height: 0;
+    inline-size: 40%;
+}
+
+.expandable:target {
+    height: 50px;
+}
